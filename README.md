@@ -1,12 +1,14 @@
 # olist_data_analysis
 Project Overview This project provides a comprehensive end-to-end analysis of the Olist Store dataset, a large Brazilian e-commerce marketplace. The goal was to transform raw, fragmented data into actionable business insights regarding customer behavior, seller performance, and logistics optimization
 
-🛒 Olist E-Commerce: End-to-End Analytics Pipeline
-Python ETL | MySQL Analytics | Business Intelligence
-📌 Project Overview
+
+## Olist E-Commerce: End-to-End Analytics Pipeline Python ETL | MySQL Analytics | Business Intelligence
+
+
+# 📌 Project Overview
 This project demonstrates a full-cycle data analytics workflow using the Olist Brazilian E-Commerce dataset. The goal was to transform 100k+ rows of raw, fragmented data into a structured relational database and extract high-level business insights regarding marketplace growth and logistics efficiency.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Language: Python 3.10+
 
 Data Manipulation: Pandas, NumPy
@@ -17,7 +19,7 @@ Database Connector: SQLAlchemy, PyMySQL
 
 Analysis: Advanced SQL (CTEs, Window Functions)
 
-🚀 Workflow & Implementation
+# 🚀 Workflow & Implementation
 1. Data ETL & Cleaning (Python)
 The project began by loading 9 interconnected CSV files. Using Pandas, I performed:
 
@@ -43,7 +45,7 @@ Logistics Profitability: Calculated the Freight-to-Price Ratio to identify categ
 
 Marketplace Health: Analyzed average order values (AOV) across 70+ product categories.
 
-📊 Key Business Insights
+# 📊 Key Business Insights
 Logistics Bottlenecks: Identified that bulky categories (like Furniture) carry a freight ratio of 20%+, indicating a need for regional fulfillment centers.
 
 Top Performers: The "Health & Beauty" and "Watches" categories consistently drive the highest total revenue.
